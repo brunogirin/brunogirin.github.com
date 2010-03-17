@@ -1,0 +1,23 @@
+html {
+  background-color: white;
+}
+body {
+  margin: 0 auto;
+  width: 70%;
+}
+ul.projects {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+ul.projects li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+ul.projects li img {
+  float: left;
+  margin-right: 1em;
+  width: 160px;
+  border: none;
+}

@@ -17,6 +17,9 @@ ul.projects li:after {
     clear: both;
     visibility: hidden;
 }
+ul.projects li:hover {
+  background-color: #ff6;
+}
 ul.projects li a {
   display: block;
   text-decoration: none;

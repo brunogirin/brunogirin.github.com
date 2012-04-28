@@ -3,7 +3,35 @@ html {
 }
 body {
   margin: 0 auto;
-  width: 70%;
+  padding: 0;
+  width: 100%;
+}
+body > div {
+    padding: 0 15%;
+}
+div.header {
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(bottom, black, rgb(80, 80, 102));
+    background-image: -moz-linear-gradient(bottom, black, rgb(80, 80, 102));
+    background-image: -o-linear-gradient(bottom, black, rgb(80, 80, 102));
+    background-image: -webkit-linear-gradient(bottom, black, rgb(80, 80, 102));
+    background-image: -ms-linear-gradient(bottom, black, rgb(80, 80, 102));
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.header h1 {
+    margin: 0;
+}
+div.header img {
+    float: right;
+    background-color: white;
+    padding: 2px;
+    border: 1px solid rgb(80, 80, 102);
+    -moz-box-shadow:    3px 3px 3px rgb(40, 40, 51);
+    -webkit-box-shadow: 3px 3px 3px rgb(40, 40, 51);
+    box-shadow:         3px 3px 3px rgb(40, 40, 51);
 }
 ul.projects {
   list-style-type: none;

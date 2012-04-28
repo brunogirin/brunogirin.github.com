@@ -10,6 +10,13 @@ ul.projects {
   margin-left: 0;
   padding-left: 0;
 }
+ul.projects li:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 ul.projects li a {
   display: block;
   text-decoration: none;

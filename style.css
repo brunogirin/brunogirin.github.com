@@ -38,24 +38,30 @@ ul.projects {
   margin-left: 0;
   padding-left: 0;
 }
-ul.projects li:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+ul.projects li {
+    padding: 5px 0;
 }
 ul.projects li:hover {
-  background-color: #ff6;
+  background-color: #def;
 }
 ul.projects li a {
   display: block;
   text-decoration: none;
   color: black;
 }
+ul.projects li a:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
 ul.projects li img {
   float: left;
   margin-right: 1em;
   width: 160px;
   border: none;
+}
+ul.projects li h3 {
+    margin-top: 0;
 }

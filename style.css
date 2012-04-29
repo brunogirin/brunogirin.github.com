@@ -24,7 +24,7 @@ div.header {
 div.header h1 {
     margin: 0;
 }
-div.header img {
+img {
     float: right;
     background-color: white;
     padding: 2px;
@@ -39,7 +39,8 @@ ul.projects {
   padding-left: 0;
 }
 ul.projects li {
-    padding: 5px 0;
+    margin: 0 -5px;
+    padding: 5px;
 }
 ul.projects li:hover {
   background-color: #def;
@@ -60,8 +61,5 @@ ul.projects li img {
   float: left;
   margin-right: 1em;
   width: 160px;
-  border: none;
 }
-ul.projects li h3 {
-    margin-top: 0;
-}
+
